@@ -1,0 +1,315 @@
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\ApplicationInsights.config
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\csc.exe
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\System.Collections.Immutable.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\vbc.exe
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\VBCSCompiler.exe
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\VBCSCompiler.exe.config
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.dll.config
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.pdb
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Antlr3.Runtime.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\EntityFramework.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\EntityFramework.SqlServer.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.Web.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.WindowsServer.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.ApplicationInsights.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Google.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Web.Infrastructure.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Newtonsoft.Json.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Owin.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Helpers.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Mvc.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Optimization.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Razor.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.Deployment.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.Razor.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\WebGrease.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.Web.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.WindowsServer.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.ApplicationInsights.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Helpers.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Mvc.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Optimization.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Razor.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.Deployment.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.Razor.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Antlr3.Runtime.pdb
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Newtonsoft.Json.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\EntityFramework.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\EntityFramework.SqlServer.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Google.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.csprojResolveAssemblyReference.cache
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.dll
+c:\users\hiep\documents\visual studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.pdb
+C:\Users\Hiep\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\PagedList.dll
+C:\Users\Hiep\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\PagedList.Mvc.dll
+C:\Users\Hiep\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\PagedList.xml
+C:\Users\Hiep\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\PagedList.Mvc.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\ApplicationInsights.config
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\csc.exe
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\vbc.exe
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\VBCSCompiler.exe
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.dll.config
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.pdb
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Antlr3.Runtime.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\EntityFramework.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\EntityFramework.SqlServer.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.Web.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.ApplicationInsights.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Newtonsoft.Json.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Owin.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\PagedList.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\PagedList.Mvc.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Helpers.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Mvc.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Optimization.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Razor.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.Deployment.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.Razor.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\WebGrease.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.Web.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.ApplicationInsights.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\PagedList.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\PagedList.Mvc.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Helpers.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Mvc.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Optimization.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Razor.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.Deployment.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.Razor.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Antlr3.Runtime.pdb
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Newtonsoft.Json.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\EntityFramework.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\EntityFramework.SqlServer.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.csprojResolveAssemblyReference.cache
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.dll
+C:\Users\vudon\Desktop\CNLTTH\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.pdb
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\ApplicationInsights.config
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\csc.exe
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\System.Collections.Immutable.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\System.Reflection.Metadata.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\vbc.exe
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\VBCSCompiler.exe
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\VBCSCompiler.exe.config
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.dll.config
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.pdb
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Antlr3.Runtime.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\EntityFramework.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\EntityFramework.SqlServer.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.Agent.Intercept.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.DependencyCollector.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.Web.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.WindowsServer.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.ApplicationInsights.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.Core.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Cookies.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Facebook.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Google.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.OAuth.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Twitter.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Web.Infrastructure.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Newtonsoft.Json.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Owin.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\PagedList.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\PagedList.Mvc.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Helpers.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Mvc.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Optimization.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Razor.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.Deployment.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.Razor.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\WebGrease.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.DependencyCollector.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.Web.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AI.WindowsServer.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.ApplicationInsights.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\PagedList.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\PagedList.Mvc.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Helpers.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Mvc.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Optimization.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.Razor.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.Deployment.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\System.Web.WebPages.Razor.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Antlr3.Runtime.pdb
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Newtonsoft.Json.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\EntityFramework.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\EntityFramework.SqlServer.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.Core.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Facebook.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Cookies.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.OAuth.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Google.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.Twitter.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.csprojResolveAssemblyReference.cache
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.dll
+D:\CN Lập trình Tích hợp\TrungTamTiengAnh (1)\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.pdb
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\ApplicationInsights.config
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\csc.exe
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\vbc.exe
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\VBCSCompiler.exe
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.dll.config
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.dll
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.pdb
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.dll
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.pdb
+C:\Users\Thanh\Documents\Visual Studio 2015\Projects\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.csprojResolveAssemblyReference.cache
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\ApplicationInsights.config
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\csc.exe
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\System.Collections.Immutable.dll
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\System.Reflection.Metadata.dll
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\vbc.exe
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\VBCSCompiler.exe
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\VBCSCompiler.exe.config
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.dll.config
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.dll
+D:\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.pdb
+D:\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.dll
+D:\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.pdb
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\ApplicationInsights.config
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\csc.exe
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\System.Collections.Immutable.dll
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\System.Reflection.Metadata.dll
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\vbc.exe
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\VBCSCompiler.exe
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\roslyn\VBCSCompiler.exe.config
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.dll.config
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.dll
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\bin\TrungTamTiengAnh.pdb
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.csprojResolveAssemblyReference.cache
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.csproj.CoreCompileInputs.cache
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.dll
+D:\FLANCER\C#\WEB\TrungTamTiengAnh\TrungTamTiengAnh\TrungTamTiengAnh\obj\Debug\TrungTamTiengAnh.pdb

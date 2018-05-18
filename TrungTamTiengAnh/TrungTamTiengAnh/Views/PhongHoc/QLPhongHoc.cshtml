@@ -1,0 +1,60 @@
+﻿@model IEnumerable<TrungTamTiengAnh.Models.Entities.PhongHoc>
+
+@{
+    ViewBag.Title = "QLPhongHoc";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Quản lý phòng học</h2>
+<div class="panel-body">
+    @using (Html.BeginForm("QLPhongHoc", "PhongHoc", FormMethod.Get))
+    {
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="col-lg-4">
+
+                    <a type="button" class="btn btn-primary" href="/PhongHoc/ThemPhongHoc">Thêm phòng học</a>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" value="@ViewBag.SearchString " name="searchString" placeholder="Tìm kiếm" />
+                </div>
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-success"> Tìm kiếm</button>
+                </div>
+            </div>
+
+        </div>
+    }
+</div>
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TenPhongHoc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TrangThietBi)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenPhongHoc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TrangThietBi)
+        </td>
+        <td>
+            
+
+            @Html.ActionLink("Sửa", "SuaPhongHoc", new { id = item.PhongHocID }) |
+            @Html.ActionLink("Xóa", "XoaPhongHoc", new { id = item.PhongHocID }, new { onclick = "return ConfirmationDialog()" })
+        </td>
+    </tr>
+}
+
+</table>

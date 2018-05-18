@@ -1,0 +1,26 @@
+﻿@model IEnumerable<TrungTamTiengAnh.Models.Entities.KhoaHoc>
+
+<div class="col-md-3 col-sm-12 pull-left col-xs-12">
+    <div class="sidebar">
+        <div class="side-block sidenav side-course">
+            <div class="title">
+                <img src="/Content/HTML/resources/img/sidenav-bg.png" />
+                <span>Khóa Học</span>
+            </div>
+            <ul>
+                @foreach (var item in Model)
+                {
+                    <li class="">
+                        <div class="img">
+                            <img src="@item.HinhAnh" />
+                        </div>
+                        <div class="desc">
+                            <a href="/Home/DetailKhoaHoc?id=@item.KhoaHocID" title="@item.TenKhoaHoc">@item.TenKhoaHoc</a>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+
+    </div>
+</div>

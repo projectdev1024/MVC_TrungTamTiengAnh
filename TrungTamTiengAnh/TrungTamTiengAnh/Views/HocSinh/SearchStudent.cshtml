@@ -1,0 +1,59 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@model IEnumerable<TrungTamTiengAnh.Models.Entities.HocSinh>
+
+<h2>Danh sách tìm kiếm học sinh</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Họ và tên")
+        </th>
+        <th>
+            @Html.DisplayName("Ngày sinh")
+        </th>
+        <th>
+            @Html.DisplayName("Giới tính")
+        </th>
+        <th>
+            @Html.DisplayName("Địa chỉ")
+        </th>
+        <th>
+            @Html.DisplayName("Phụ huynh học sinh")
+        </th>
+        <th>
+            @Html.DisplayName("Số liên lạc")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <a href="/HocSinh/HoaDon?id=@item.HocSinhID">@Html.DisplayFor(modelItem => item.TenHocSinh)</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgaySinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GioiTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhuHuynh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SDT)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "SuaHocSinh", new { id = item.HocSinhID }) |
+
+                @Html.ActionLink("Xóa", "XoaHocSinh", new { id = item.HocSinhID })
+            </td>
+        </tr>
+    }
+</table>

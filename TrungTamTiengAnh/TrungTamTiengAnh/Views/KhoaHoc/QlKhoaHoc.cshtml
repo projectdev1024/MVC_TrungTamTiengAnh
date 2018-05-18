@@ -1,0 +1,87 @@
+﻿@model IEnumerable<TrungTamTiengAnh.Models.Entities.KhoaHoc>
+
+@{
+    ViewBag.Title = "Quản Lí Khóa Học";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+
+   
+}
+
+<h2>Quản lí khóa học</h2>
+<div class="panel-body">
+    @using (Html.BeginForm("QLKhoaHoc", "KhoaHoc", FormMethod.Get))
+    {
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="col-lg-4">
+
+                    <a type="button" class="btn btn-primary" href="/KhoaHoc/ThemKhoaHoc">Thêm phòng học</a>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" value="@ViewBag.SearchString " name="searchString" placeholder="Tìm kiếm" />
+                </div>
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-success"> Tìm kiếm</button>
+                </div>
+            </div>
+
+        </div>
+    }
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Tên Khóa Học")
+        </th>
+        <th>
+            @Html.DisplayName("Ngày Bắt Đầu")
+        </th>
+        <th>
+            @Html.DisplayName("Ngày Kết Thúc")
+        </th>
+        <th>
+            @Html.DisplayName("Thời Lượng Học")
+        </th>
+        <th>
+            @Html.DisplayName("Số Lượng Học Sinh")
+        </th>
+        <th>
+            @Html.DisplayName("Học Phí")
+        </th>
+        <th>
+            @Html.DisplayName("Khoảng Độ Tuổi")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenKhoaHoc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgayBatDau)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgayKetThuc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ThoiLuongKhoaHoc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SoLuongHS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HocPhi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DoTuoi.KhoangDoTuoi)
+        </td>
+        <td>
+            @Html.ActionLink("Sửa", "SuaKhoaHoc", new { id=item.KhoaHocID }) |
+            @Html.ActionLink("Xóa", "XoaKhoaHoc", new { id=item.KhoaHocID }, new { onclick = "return ConfirmationDialog()" })
+        </td>
+    </tr>
+}
+
+</table>

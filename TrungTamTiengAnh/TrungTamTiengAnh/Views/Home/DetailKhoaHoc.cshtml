@@ -1,0 +1,45 @@
+﻿
+@model TrungTamTiengAnh.Models.Entities.KhoaHoc
+@{
+    ViewBag.Title = "ChiTietKhoaHoc";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<div id="content">
+    <div class="content-wrapper">
+        <div class="container">
+            <ol id="breadcrumb" class="breadcrumb">
+                <li><a href="/" title="Trang ch?">Trang chủ</a></li>
+                <li><a>Khóa học</a></li>
+                <li class="active">@Model.TenKhoaHoc</li>
+            </ol>
+            <div class="row">
+                <div class="col-md-9 col-sm-12 col-xs-12 pull-right">
+                    <div class="main-content send-contact">
+
+                        <h1>@Model.TenKhoaHoc</h1>
+                        <div class="wrap-text">
+                            <p style="box-sizing: border-box; margin: 0px 0px 10px; color: rgb(17, 17, 17); font-family: Arial; font-size: 14px; text-align: justify;">@Model.ChiTiet</p>
+
+                            @*<p style="box-sizing: border-box; margin: 0px 0px 10px; color: rgb(17, 17, 17); font-family: Arial; font-size: 14px; text-align: justify;">@Model.MoTa</p>*@
+
+                        </div>
+                        <div class="tab-title" style="margin-top: 10px">
+                            <ul>
+                                <li class="btn btn-violet btn-register-course"><a href="#tab1" title="Ưu điểm khóa học" role="tab" data-toggle="tab" style="color:white"><h3>Đăng ký khóa học</h3></a></li>
+
+                            </ul>
+                        </div>
+                        @RenderPage("ParDetailKh.cshtml")
+                    </div>
+                </div>
+                @Html.Action("MenuKhoaHoc")
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+

@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "Quản Lí Giáo Viên";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@model PagedList.IPagedList<TrungTamTiengAnh.Models.Entities.GiaoVien>
+@using PagedList.Mvc;
+
+<h2>Danh sách giáo viên</h2>
+<div class="panel-body">
+    @using (Html.BeginForm("QLGiaoVien", "GiaoVien", FormMethod.Get))
+    {
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="col-lg-4">
+                    
+                    <a type="button" class="btn btn-primary" href="/GiaoVien/ThemGiaoVien">Thêm giáo viên</a>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" value="@ViewBag.SearchString " name="searchString" placeholder="Tìm kiếm"/>
+                </div>
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-success"> Tìm kiếm</button>
+                </div>
+            </div>
+
+        </div>
+    }
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Họ và tên")
+        </th>
+        <th>
+            @Html.DisplayName("Ngày sinh")
+        </th>
+        <th>
+            @Html.DisplayName("Giới tính")
+        </th>
+        <th>
+            @Html.DisplayName("Địa chỉ")
+        </th>
+        <th>
+            @Html.DisplayName("Số điện thoại")
+        </th>
+        <th>
+            @Html.DisplayName("Lương")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenGiaoVien)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgaySinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GioiTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SDT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Luong)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "SuaGiaoVien", new { id = item.GiaoVienID }) |
+                @Html.ActionLink("Xóa", "XoaGiaoVien", new { id = item.GiaoVienID }, new { onclick = "return ConfirmationDialog()" })
+            </td>
+        </tr>
+    }
+
+</table>
+@Html.PagedListPager(Model, page => Url.Action("QLGiaoVien", new { page = page }))

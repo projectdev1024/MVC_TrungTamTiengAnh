@@ -1,0 +1,61 @@
+﻿@model IEnumerable<TrungTamTiengAnh.Models.Entities.TaiKhoan>
+
+@{
+    ViewBag.Title = "QLTaiKhoan";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Quản lý tài khoản</h2>
+<div class="panel-body">
+    @using (Html.BeginForm("QLTaiKhoan", "TaiKhoan", FormMethod.Get))
+    {
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="col-lg-4">
+
+                    <a type="button" class="btn btn-primary" href="/TaiKhoan/ThemTaiKhoan">Thêm tài khoản</a>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" value="@ViewBag.SearchString " name="searchString" placeholder="Tìm kiếm" />
+                </div>
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-success"> Tìm kiếm</button>
+                </div>
+            </div>
+
+        </div>
+    }
+</div>
+@*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>*@
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PassWord)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PassWord)
+            </td>
+            <td>
+
+
+                @Html.ActionLink("Sửa", "SuaTaiKhoan", new { id = item.TaiKhoanID }) |
+                @Html.ActionLink("Xóa", "XoaTaiKhoan", new { id = item.TaiKhoanID }, new { onclick = "return ConfirmationDialog()" })
+            </td>
+        </tr>
+    }
+
+</table>

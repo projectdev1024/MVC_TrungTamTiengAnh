@@ -1,0 +1,133 @@
+﻿@model TrungTamTiengAnh.Models.Entities.KhoaHoc
+
+@{
+    ViewBag.Title = "ThemKhoaHoc";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+   
+
+}
+
+<script src="~/ckeditor/ckeditor.js"></script>
+
+<h2>Thêm khóa học</h2>
+
+@using (Html.BeginForm("AddCourse", "KhoaHoc")) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Khóa học</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                @Html.Label("Tên Khóa Học")
+            </div>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TenKhoaHoc, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TenKhoaHoc, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                @Html.Label("Ngày Bắt Đầu")
+            </div>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NgayBatDau, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.NgayBatDau, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                @Html.Label("Ngày Kết Thúc")
+            </div>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NgayKetThuc, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.NgayKetThuc, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                @Html.Label("Thời Lượng Học")
+            </div>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ThoiLuongKhoaHoc, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ThoiLuongKhoaHoc, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                @Html.Label("Mô Tả")
+            </div>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.MoTa, new { htmlAttributes = new { @class = "form-control" } })
+
+                @Html.ValidationMessageFor(model => model.MoTa, "", new { @class = "text-danger" })
+                <script type="text/javascript">
+                    CKEDITOR.replace("MoTa"); </script>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                @Html.Label("Số Lượng Học Sinh")
+            </div>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SoLuongHS, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SoLuongHS, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                @Html.Label("Link Ảnh")
+            </div>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.HinhAnh, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.HinhAnh, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                @Html.Label("Học Phí")
+            </div>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.HocPhi, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.HocPhi, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                @Html.Label("Khoảng Độ Tuổi")
+            </div>
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.DoTuoiID, new List<SelectListItem>()
+                   {
+                        new SelectListItem() {Selected=true, Text = "3-5 Tuổi", Value = "1" },
+                        new SelectListItem() {Selected=false, Text = "6-8 Tuổi", Value = "2" },
+                        new SelectListItem() {Selected=false, Text = "9-12 Tuổi", Value = "3" },
+                        new SelectListItem() {Selected=false, Text = "13-15 Tuổi", Value = "4" },
+                        new SelectListItem() {Selected=false, Text = "15-18 Tuổi", Value = "5" }
+                   }, new { @class = "text-danger" })
+                @Html.ValidationMessageFor(model => model.HocPhi, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Thêm" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Quay lại", "QLKhoaHoc")
+</div>

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<TrungTamTiengAnh.Models.Entities.DoTuoi>
+
+@{
+    ViewBag.Title = "QLDoTuoi";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Quản lý độ tuổi</h2>
+<div class="panel-body">
+    @using (Html.BeginForm("QLDoTuoi", "DoTuoi", FormMethod.Get))
+    {
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="col-lg-4">
+
+                    <a type="button" class="btn btn-primary" href="/DoTuoi/ThemDoTuoi">Thêm độ tuổi</a>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" value="@ViewBag.SearchString " name="searchString" placeholder="Tìm kiếm" />
+                </div>
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-success"> Tìm kiếm</button>
+                </div>
+            </div>
+
+        </div>
+    }
+</div>
+@*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>*@
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.KhoangDoTuoi)
+        </th>
+        
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.KhoangDoTuoi)
+            </td>
+           
+            <td>
+
+
+                @Html.ActionLink("Sửa", "SuaDoTuoi", new { id = item.DoTuoiID }) |
+                @Html.ActionLink("Xóa", "XoaDoTuoi", new { id = item.DoTuoiID }, new { onclick = "return ConfirmationDialog()" })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,40 @@
+﻿
+
+@{
+    ViewBag.Title = "Quản Lí Phòng Học";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@model IEnumerable<TrungTamTiengAnh.Models.Entities.PhongHoc>
+
+<h2>Danh sách tìm kiếm phòng học</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Tên phòng học")
+        </th>
+        <th>
+            @Html.DisplayName("Trang Thiết Bị")
+        </th>
+        
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenPhongHoc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TrangThietBi)
+            </td>
+            
+            <td>
+                @Html.ActionLink("Sửa", "SuaPhongHoc", new { id = item.PhongHocID }) |
+                @Html.ActionLink("Xóa", "XoaPhongHoc", new { id = item.PhongHocID })
+            </td>
+        </tr>
+    }
+
+</table>

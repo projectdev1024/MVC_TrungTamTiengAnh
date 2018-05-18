@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "Quản Lí Giáo Viên";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@model IEnumerable<TrungTamTiengAnh.Models.Entities.GiaoVien>
+
+<h2>Danh sách tìm kiếm giáo viên</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Họ và tên")
+        </th>
+        <th>
+            @Html.DisplayName("Ngày sinh")
+        </th>
+        <th>
+            @Html.DisplayName("Giới tính")
+        </th>
+        <th>
+            @Html.DisplayName("Địa chỉ")
+        </th>
+        <th>
+            @Html.DisplayName("Số điện thoại")
+        </th>
+        <th>
+            @Html.DisplayName("Lương")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenGiaoVien)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgaySinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GioiTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SDT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Luong)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "SuaGiaoVien", new { id = item.GiaoVienID }) |
+                @Html.ActionLink("Xóa", "XoaGiaoVien", new { id = item.GiaoVienID })
+            </td>
+        </tr>
+    }
+
+</table>

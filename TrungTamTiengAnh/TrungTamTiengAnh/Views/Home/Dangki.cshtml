@@ -1,0 +1,62 @@
+﻿
+@model TrungTamTiengAnh.Models.DTO.HocSinhDTO
+
+@using(Html.BeginForm("AddStd", "Home"))
+{
+
+<div class="register-couse-form" id="register-couse-form">
+    <div class="container">
+        <form id="form-tryRegist" method="post">
+            <img src="/Content/HTML/resources/img/cuckoo.png" class="cuckoo"/>
+            <h2 class="text-uppercase">Đăng ký học </h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <label>Họ và tên bé : <i class="color-red">*</i></label>
+                        @Html.EditorFor(model => model.TenHocSinh, new { htmlAttributes = new { @class = "form-control" } })
+   
+                    </div>
+                    <div class="form-group">
+                        <label>Ngày sinh ( DD/MM/YY ): <i class="color-red">*</i></label>
+                        @Html.EditorFor(model => model.NgaySinh, new { htmlAttributes = new { @class = "form-control" } })
+                       
+                    </div>
+                    <div class="form-group">
+                        <label>Tên phụ huynh: <i class="color-red">*</i></label>
+                        @Html.EditorFor(model => model.PhuHuynh, new { htmlAttributes = new { @class = "form-control" } })
+                      
+                    </div>
+
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+
+                    <div class="form-group">
+                        <label>Địa chỉ:</label>
+                        @Html.EditorFor(model => model.DiaChi, new { htmlAttributes = new { @class = "form-control" } })
+                       
+                    </div>
+                    <div class="form-group">
+
+                        <label>Số điện thoại di động: <i class="color-red">*</i></label>
+                        @Html.EditorFor(model => model.SDT, new { htmlAttributes = new { @class = "form-control" } })
+                       
+                    </div>
+                    <div class="form-group">
+                        <label>Khóa học: <i class="color-red">*</i></label>
+                        @Html.DropDownListFor(model => model.KhoaHocID, null, new { @class = "form-control" })
+                        
+                    </div>
+                </div>
+
+
+                    <div class="form-group text-center">
+                        <input type="submit" value="Đăng kí" class="btn btn-violet" onclick="confirmRegister()" />
+                       
+                    </div>
+
+
+                </div>
+        </form>
+    </div>
+</div>
+}

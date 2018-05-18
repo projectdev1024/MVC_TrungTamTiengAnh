@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+
+    @*<script src="/Content/ckfinder/ckfinder.js"></script>*@
+
+
+    <title>Quản Trị Hệ Thống</title>
+    <script>
+        function ConfirmationDialog() {
+            if (confirm("Bạn có thực sự muốn xóa?"))
+                return true;
+            else
+                return false;
+        }
+        function confirmEdit() {
+            if (confirm("Bạn muốn sửa bản ghi này?"))
+                return true;
+            else
+                return false;
+        }
+    </script>
+    <link href="~/Content/sb-admin-2.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Quản Trị Hệ Thống Minions</a>
+            </div>
+
+            <div class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a href="/Login/Logout"><i class="fa fa-sign-out fa-fw"></i>Đăng xuất</a>
+                </li>
+            </div>
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                       @* <li>
+        <a href="/TaiKhoan/QLTaiKhoan"><i class="fa fa-edit fa-fw"></i>Quản lý Tài Khoản</a>
+    </li>*@
+                        <li>
+                            <a href="/HocSinh/QLHocSinh"><i class="fa fa-dashboard fa-fw"></i>Quản lý Học Sinh</a>
+                        </li>
+                        <li>
+                            <a href="/GiaoVien/QLGiaoVien"><i class="fa fa-dashboard fa-fw"></i>Quản lý Giáo Viên</a>
+                        </li>
+                        <li>
+                            <a href="/KhoaHoc/QLKhoaHoc"><i class="fa fa-table fa-fw"></i>Quản lý Khóa Học</a>
+                        </li>
+                        <li>
+                            <a href="/LopHoc/QLLopHoc"><i class="fa fa-edit fa-fw"></i>Quản lý Lớp Học</a>
+                        </li>
+                        <li>
+                            <a href="/NhanVien/QLNhanVien"><i class="fa fa-edit fa-fw"></i>Quản lý Nhân Viên</a>
+                        </li>
+                        <li>
+                            <a href="/PhongHoc/QLPhongHoc"><i class="fa fa-edit fa-fw"></i>Quản lý Phòng Học</a>
+                        </li>
+                        <li>
+                            <a href="/TinTuc/QLTinTuc"><i class="fa fa-edit fa-fw"></i>Quản lý Tin Tức</a>
+                        </li>
+                        <li>
+                            <a href="/DoTuoi/QLDoTuoi"><i class="fa fa-edit fa-fw"></i>Quản lý Độ Tuổi</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="row">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

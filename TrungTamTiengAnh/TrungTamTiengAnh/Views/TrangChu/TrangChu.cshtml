@@ -1,0 +1,289 @@
+﻿@model IEnumerable<TrungTamTiengAnh.Models.Entities.KhoaHoc>
+@{
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+    
+}
+
+<div id="main-slider">
+    <div class="owl-carousel owl-theme">
+        <a href="http://popodoo.com.vn/tin-nhanh/thong-bao-to-chuc-chuong-trinh-halloween-special-party-2017" class="item" id="slide1" style="background-image: url(/Content/HTML/resources/img/slide/slide1.jpg); display: block">
+            <table style="position:absolute;z-index:10; bottom:0;">
+                <tr>
+                    <td style="text-align: center;vertical-align: middle; width: 50%;" class="hiddin-text">
+                        <div class="dibien">
+                            <img class="wow fadeInDownBig" data-animation="fadeInDownBig" alt="" />
+                        </div>
+                    </td>
+                    <td style="vertical-align: middle;text-align: right;" class="hidden-xs">
+                        <div class="kid" style="margin-top: 28px;">
+                            <img class="wow fadeInRightBig hidden-xs" data-animation="fadeInRightBig" alt="" />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="text-center hidden-xs" style="padding-top: 10px;position:absolute;bottom:15px;width:100%;z-index:11;">
+                <span class="btn-discover" style="background-image: url() !important;" data-animation="fadeInUpBig"></span>
+            </div>
+        </a>
+        <a href="http://popodoo.com.vn/tin-nhanh/sinh-nhat-10-nam-qua-tang-nhan-10" class="item" id="slide1" style="background-image: url(/Content/HTML/resources/img/slide_t61.jpg); display: block">
+            <table style="position:absolute;z-index:10; bottom:0;">
+                <tr>
+                    <td style="text-align: center;vertical-align: middle; width: 50%;" class="hiddin-text">
+                        <div class="dibien">
+                            <img class="wow fadeInDownBig" data-animation="fadeInDownBig" alt="" />
+                        </div>
+                    </td>
+                    <td style="vertical-align: middle;text-align: right;" class="hidden-xs">
+                        <div class="kid" style="margin-top: 28px;">
+                            <img class="wow fadeInRightBig hidden-xs" data-animation="fadeInRightBig" alt="" />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="text-center hidden-xs" style="padding-top: 10px;position:absolute;bottom:15px;width:100%;z-index:11;">
+                <span class="btn-discover" style="background-image: url() !important;" data-animation="fadeInUpBig"></span>
+            </div>
+        </a>
+        <a class="item" id="slide1" style="background-image: url(/Content/HTML/resources/img/banner/71.jpg); display: block">
+            <table style="position:absolute;z-index:10; bottom:0;">
+                <tr>
+                    <td style="text-align: center;vertical-align: middle; width: 50%;" class="hiddin-text">
+                        <div class="dibien">
+                            <img src="/Content/HTML/resources/img/banner/TN2.png" class="wow fadeInDownBig" data-animation="fadeInDownBig" alt="" />
+                        </div>
+                    </td>
+                    <td style="vertical-align: middle;text-align: right;" class="hidden-xs">
+                        <div class="kid" style="margin-top: 28px;">
+                            <img src="/Content/HTML/resources/img/banner/ppd1.png" class="wow fadeInRightBig hidden-xs" data-animation="fadeInRightBig" alt="" />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="text-center hidden-xs" style="padding-top: 10px;position:absolute;bottom:15px;width:100%;z-index:11;">
+                <span class="btn-discover" style="background-image: url(/Uploads/files/button3.png) !important;" data-animation="fadeInUpBig"></span>
+            </div>
+        </a>
+        <a href="http://popodoo.com.vn/Tieng-anh-he" class="item" id="slide1" style="background-image: url(/Uploads/files/nencam1.jpg); display: block">
+            <table style="position:absolute;z-index:10; bottom:0;">
+                <tr>
+                    <td style="text-align: center;vertical-align: middle; width: 50%;" class="hiddin-text">
+                        <div class="dibien">
+                            <img src="/Uploads/files/8.png" class="wow fadeInDownBig" data-animation="fadeInDownBig" alt="" />
+                        </div>
+                    </td>
+                    <td style="vertical-align: middle;text-align: right;" class="hidden-xs">
+                        <div class="kid" style="margin-top: 28px;">
+                            <img src="/Content/HTML/resources/img/anhhuman5.png" class="wow fadeInRightBig hidden-xs" data-animation="fadeInRightBig" alt="" />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="text-center hidden-xs" style="padding-top: 10px;position:absolute;bottom:15px;width:100%;z-index:11;">
+                <span class="btn-discover" style="background-image: url(/Uploads/files/button.png) !important;" data-animation="fadeInUpBig"></span>
+            </div>
+        </a>
+    </div>
+</div>
+<div id="course">
+    <h2 class="text-center cfm">
+        <img src="/Content/HTML/resources/img/course-title-bg.png" width="100%" alt="" />
+        <span>KHÓA HỌC TIẾNG ANH HIỆU QUẢ NHẤT DÀNH CHO TRẺ EM</span>
+    </h2>
+
+    <div class="container">
+
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                var url = "/khoa-hoc/" + item.TenKhoaHoc + "-" + item.KhoaHocID;
+                var url1 = "/ChiTiet/" + item.TenKhoaHoc + "-" + item.KhoaHocID;
+
+                <div class="col-sm-4 col-xs-12">
+                    <div class="course">
+                        <div class="img">
+                            <a href="@url" title="@item.TenKhoaHoc">
+                                <img src="@item.HinhAnh" alt="@item.TenKhoaHoc" />
+                            </a>
+                        </div>
+                        <div class="desc">
+                            <div>
+                                <h3><a href="@url" title="@item.TenKhoaHoc">@item.TenKhoaHoc</a></h3>
+                            </div>
+                            <p class="text-center">@item.MoTa</p>
+                            <a href="@url1" title="@item.TenKhoaHoc" class="btn-detail detail-course-3">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+
+
+</div>
+<Lý do chọn PoPoDoo>
+    <div id="why">
+
+        <div class="container">
+
+            <div class="title text-center text-uppercase cfm">
+                <h2>6 L&#221; DO CHỌN POPODOO</h2>
+                <p></p>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                    <div class="why">
+                        <a title="10 năm kinh nghiệm giảng dạy Tiếng Anh mầm non, Tiểu học  tại Việt Nam">
+                            <img src="/Content/HTML/resources/img/20170105135443_untitled-4.jpg" alt="10 năm kinh nghiệm giảng dạy Tiếng Anh mầm non, Tiểu học  tại Việt Nam" />
+                            <h3><span>10 năm kinh nghiệm giảng dạy Tiếng Anh mầm non, Tiểu học  tại Việt Nam</span></h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="why">
+                        <a title="Chương trình Tiếng anh chuy&#234;n biệt đầu ti&#234;n cho trẻ 3-15 tuổi ">
+                            <img src="/Content/HTML/resources/img/20170105135309_untitled-3.jpg" alt="Chương trình Tiếng anh chuy&#234;n biệt đầu ti&#234;n cho trẻ 3-15 tuổi " />
+                            <h3><span>Chương trình Tiếng anh chuy&#234;n biệt đầu ti&#234;n cho trẻ 3-15 tuổi </span></h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="why">
+                        <a title="M&#244;i trường học tiếng anh h&#224;ng ng&#224;y đa phương tiện &quot;Hear, Say, See, Do&quot;">
+                            <img src="/Content/HTML/resources/img/20170105140137_untitled-5.jpg" alt="M&#244;i trường học tiếng anh h&#224;ng ng&#224;y đa phương tiện &quot;Hear, Say, See, Do&quot;" />
+                            <h3><span>M&#244;i trường học tiếng anh h&#224;ng ng&#224;y đa phương tiện &quot;Hear, Say, See, Do&quot;</span></h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="why">
+                        <a title="100%  giảng dạy theo ti&#234;u chuẩn quốc tế, tổ chức thi v&#224; lấy chứng chỉ Cambridge">
+                            <img src="/Content/HTML/resources/img/20170105141031_untitled-8.jpg" alt="100%  giảng dạy theo ti&#234;u chuẩn quốc tế, tổ chức thi v&#224; lấy chứng chỉ Cambridge" />
+                            <h3><span>100%  giảng dạy theo ti&#234;u chuẩn quốc tế, tổ chức thi v&#224; lấy chứng chỉ Cambridge</span></h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="why">
+                        <a title="Hệ thống gi&#225;o trình, phương ph&#225;p giảng dạy, cơ sở vật chất ti&#234;u chuẩn d&#224;nh ri&#234;ng cho trẻ em ">
+                            <img src="/Content/HTML/resources/img/20170105142649_5.jpg" alt="Hệ thống gi&#225;o trình, phương ph&#225;p giảng dạy, cơ sở vật chất ti&#234;u chuẩn d&#224;nh ri&#234;ng cho trẻ em " />
+                            <h3><span>Hệ thống gi&#225;o trình, phương ph&#225;p giảng dạy, cơ sở vật chất ti&#234;u chuẩn d&#224;nh ri&#234;ng cho trẻ em </span></h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="why">
+                        <a title="100% gi&#225;o vi&#234;n nước ngo&#224;i, Việt Nam đạt ti&#234;u chuẩn sư phạm,  trẻ trung, nhiệt tình, năng động, y&#234;u trẻ v&#224; hiểu trẻ">
+                            <img src="/Content/HTML/resources/img/20170105143509_6.jpg" alt="100% gi&#225;o vi&#234;n nước ngo&#224;i, Việt Nam đạt ti&#234;u chuẩn sư phạm,  trẻ trung, nhiệt tình, năng động, y&#234;u trẻ v&#224; hiểu trẻ" />
+                            <h3><span>100% gi&#225;o vi&#234;n nước ngo&#224;i, Việt Nam đạt ti&#234;u chuẩn sư phạm,  trẻ trung, nhiệt tình, năng động,...</span></h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="register-couse-form" id="register-couse-form">
+        <div class="container">
+            <form id="form-tryRegist" method="post">
+                <img src="/Content/HTML/resources/img/bee.jpg" class="cuckoo" />
+                <h2 class="text-uppercase">Đăng ký học </h2>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Họ và tên bé : <i class="color-red">*</i></label>
+                            <input type="text" class="form-control" name="FullNameBabyOne" id="FullNameBabyOne" />
+                        </div>
+                        <div class="form-group">
+                            <label>Ngày sinh ( DD/MM/YY ): <i class="color-red">*</i></label>
+                            <input type="text" class="form-control datepicker" name="BirthdayBabyOne" id="BirthdayBabyOne" />
+                        </div>
+                        <div class="form-group">
+                            <label>Tên phụ huynh: <i class="color-red">*</i></label>
+                            <input type="text" class="form-control" name="NameParent" id="NameParent" />
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+
+                        <div class="form-group">
+                            <label>Địa chỉ:</label>
+                            <input type="text" class="form-control" name="Address" id="Address" />
+                        </div>
+                        <div class="form-group">
+                            <label>Số điện thoại di động: <i class="color-red">*</i></label>
+                            <input type="text" class="form-control" name="Mobile" id="Mobile" />
+                        </div>
+                        <div class="form-group">
+                            <label>Facebook/Email :</label>
+                            <input type="text" class="form-control" name="FacebookOrEmail" id="FacebookOrEmail" />
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+
+                        <div class="form-group">
+
+
+                            <label>Khóa học: <i class="color-red">*</i></label>
+                            <select class="form-control" name="Center">
+
+                                <optgroup label="Độ tuổi từ 3-5">
+                                    <option value="1016" id="1016">Tiếng anh mầm non</option>
+                                    <option value="1015" id="1015">Giao tiếp vui</option>
+
+                                </optgroup>
+                                <optgroup label="Độ tuổi từ 6-8">
+                                    <option value="1016" id="1016">Tiếng anh tiểu học 1</option>
+                                    <option value="1015" id="1015">Giao tiếp 1</option>
+                                    <option value="1016" id="1016">Ngữ pháp 1</option>
+
+                                </optgroup>
+                                <optgroup label="Độ tuổi từ 9-12">
+                                    <option value="1016" id="1016">Tiếng anh tiểu học 2</option>
+                                    <option value="1015" id="1015">Giao tiếp 2</option>
+                                    <option value="1016" id="1016">Ngữ pháp 2</option>
+                                </optgroup>
+                                <optgroup label="Độ tuổi từ 13-15">
+                                    <option value="1016" id="1016">Tiếng anh trung học 1</option>
+                                    <option value="1015" id="1015">Giao tiếp 3</option>
+                                    <option value="1016" id="1016">Ngữ pháp 3</option>
+                                </optgroup>
+                                <optgroup label="Độ tuổi từ 15-18">
+                                    <option value="1016" id="1016">Tiếng anh trung học 2</option>
+                                    <option value="1015" id="1015">Giao tiếp 4</option>
+                                    <option value="1016" id="1016">Ngữ pháp 4</option>
+                                    <option value="1016" id="1016">Ngữ pháp nâng cao</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label> </label>
+
+                        </div>
+                        <div class="form-group">
+                            <label> </label>
+
+                        </div>
+                        <div class="form-group text-center">
+                            <button type="submit" id="btnRegister" class="btn btn-violet text-uppercase" style="font-size: 16px;padding-top: 8px;padding-bottom: 8px"><b>Đăng ký</b></button>
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+

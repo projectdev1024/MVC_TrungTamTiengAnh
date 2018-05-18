@@ -1,0 +1,86 @@
+﻿@model TrungTamTiengAnh.Models.Entities.LopHoc
+
+@{
+    ViewBag.Title = "SuaLopHoc";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Sửa thông tin lớp học</h2>
+
+@using (Html.BeginForm("EditActionClass", "LopHoc"))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.LopHocID)
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                @Html.Label("Tên khóa học")
+            </div>
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.KhoaHocID, null, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.KhoaHocID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                @Html.Label("Tên giáo viên")
+            </div>
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.GiaoVienID, null, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.GiaoVienID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                @Html.Label("Tên phòng học")
+            </div>
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.PhongHocID, null, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.PhongHocID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                @Html.Label("Tên lớp học")
+            </div>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TenLopHoc, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TenLopHoc, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                @Html.Label("Giới hạn học sinh")
+            </div>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SoLuongHS, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SoLuongHS, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                @Html.Label("Ngày thi")
+            </div>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.LichThi, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.LichThi, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Lưu" class="btn btn-default" onclick="confirmEdit()" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Quay lại", "QLLopHoc")
+</div>

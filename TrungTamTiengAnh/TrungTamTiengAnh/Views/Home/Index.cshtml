@@ -1,0 +1,326 @@
+﻿
+@model IEnumerable<TrungTamTiengAnh.Models.Entities.KhoaHoc>
+
+@{
+
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+
+}
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script language="javascript">
+	    $(function () {
+	        var count = $('.slide-image').length;
+	        for (x = 0; x < count; x++) {
+	            $('.slide-pager ul').prepend("<li class='slide-pager-slot'></li>");
+	        }
+
+	        $('.slide-pager-slot:first-child').addClass('focus');
+	        var eindex = 0;
+	        $('.slide-pager-slot').click(function () {
+	            eindex = $('.slide-pager-slot').index(this);
+	            $('.slide-image').stop().animate({ opacity: 0 });
+	            $('.slide-image:eq(' + eindex + ')').stop().animate({ opacity: 1 });
+	            $('.slide-pager-slot').removeClass('focus');
+	            $(this).addClass('focus');
+	        });
+	        function setimagefocus() {
+	            $('.slide-pager-slot').removeClass('focus');
+	            $('.slide-pager-slot:eq(' + eindex + ')').addClass('focus');
+	            $('.slide-image').stop().animate({ opacity: 0 });
+	            $('.slide-image:eq(' + eindex + ')').stop().animate({ opacity: 1 });
+	        }
+
+	        function slideswap() {
+	            if (eindex == count - 1) { eindex = -1; }
+	            eindex++;
+	            setimagefocus();
+	        }
+
+	        start_slideswap();
+	        function start_slideswap() {
+	            timeinterval = 1500;
+	            play = setInterval(slideswap, timeinterval);
+	        }
+
+	        $(".slide-container").hover(function () {
+	            clearInterval(play);
+	        }, function () {
+	            start_slideswap();
+	        });
+	        $('.slide-control-prev').click(function () {
+	            eindex--;
+	            if (eindex == -1) { eindex = count - 1; }
+	            setimagefocus();
+	        });
+	        $('.slide-control-next').click(function () {
+	            eindex++;
+	            if (eindex == count) { eindex = 0; }
+	            setimagefocus();
+	        });
+
+	    })
+</script>
+<style>
+    .sliderImg
+         {  
+             width: 100%;
+             height: 498px;
+             background: white;
+             border: 1px solid #828282;
+         }
+
+    .slide-container
+         {
+	        height: 500px;
+	        width: 100%;
+	        margin: 0 auto;
+	     }
+        .slide-stage
+         {
+            width: 100%;
+	        height: 480px;
+            position: relative;
+         }
+        .slide-image
+         {
+            left: 0;
+            position: absolute;
+            top: 0;
+	        opacity:0;
+	        position: absolute;     
+	     }
+	     .slogan1
+	     {
+	        margin: 50px 0px 0px 30px;
+	        width:250px;
+	        height: 50px;
+	        font-size: 26px;
+	        text-align: center;
+	        background: orange;
+	        color: White;
+	        position: absolute;
+			z-index: 2;	
+			
+	     }
+	     .slogan2
+	     {
+	        margin: 100px 0px 0px 30px;
+	        width:350px;
+	        height: 30px;
+	        font-size: 17px;
+	        text-align: center;
+	        background: white;
+	        color: orangered;
+	        position: absolute;
+			z-index: 2;	
+			opacity:0.8;
+	     }
+	             
+        .slide-image:first-child
+         {
+            opacity:1;
+         }
+        .slide-pager 
+        {
+            width: 100%;
+            height: 15px;     
+        }
+        .slide-pager ul 
+        {
+            float: right;
+            padding: 0;
+            width: auto;
+           
+        }
+        .slide-pager-slot
+        {
+            background: none repeat scroll 0 0 #999999;
+            display: block;
+            float: left;
+            height: 15px;
+            list-style: none outside none;
+            margin: 0 5px 0 0;
+            width: 15px;
+	        cursor:pointer;
+	        border-radius: 10px;
+	        
+	    }
+        .slide-pager-slot:hover
+        {
+            background:orange;
+        }
+        .slide-pager ul .focus
+        {
+            background:white;
+        }
+        
+</style>
+
+
+
+
+<div id="main-slider">
+    <div class="owl-carousel owl-theme">
+
+        <div class="sliderImg">
+            <div class="slide-container">
+                <div class="slide-stage">
+                    <div class="slide-image">
+                        <div class="slogan1"> KHÁM PHÁ NGAY !</div>
+                        <div class="slogan2"> Hệ thống giáo dục hàng đầu Việt Nam</div>
+                        <img style="height: 480px; width: 1400px;" src="/Content/HTML/resources/img/unnamed.png" alt="" />
+                    </div>
+                    <div class="slide-image">
+                        <div class="slogan1"> KHÁM PHÁ NGAY !</div>
+                        <div class="slogan2"> Hệ thống giáo dục hàng đầu Việt Nam</div>
+                        <img style="height: 480px; width: 1400px;" src="/Content/HTML/resources/img/bia1.jpg" alt="" />
+                    </div>
+                    <div class="slide-image">
+                        <div class="slogan1"> KHÁM PHÁ NGAY !</div>
+   z <div class="slogan2"> Hệ thống giáo dục hàng đầu Việt Nam</div>
+                        <img style="height: 480px; width: 1400px;" src="/Content/HTML/resources/img/bia2.jpg" alt="" />
+                    </div>
+
+                </div>
+                <div class="slide-pager">
+                    <ul></ul>
+                    
+                </div>
+            </div>
+            <div class="so"></div>
+        </div>
+            <table style="position:absolute;z-index:10; bottom:0;">
+                <tr>
+                    <td style="text-align: center;vertical-align: middle; width: 50%;" class="hiddin-text">
+                        <div class="dibien">
+                            <img class="wow fadeInDownBig" data-animation="fadeInDownBig" alt="" />
+                        </div>
+                    </td>
+                    <td style="vertical-align: middle;text-align: right;" class="hidden-xs">
+                        <div class="kid" style="margin-top: 28px;">
+                            <img class="wow fadeInRightBig hidden-xs" data-animation="fadeInRightBig" alt="" />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+
+            <div class="text-center hidden-xs" style="padding-top: 10px;position:absolute;bottom:15px;width:100%;z-index:11;">
+                <span class="btn-discover" style="background-image: url() !important;" data-animation="fadeInUpBig"></span>
+            </div>
+        </a>
+
+
+    </div>
+</div>
+<div id="course">
+    <h2 class="text-center cfm">
+        <img src="/Content/HTML/resources/img/course-title-bg.png" width="100%" alt="" />
+        <span>KHÓA HỌC TIẾNG ANH HIỆU QUẢ NHẤT DÀNH CHO TRẺ EM</span>
+    </h2>
+
+    <div class="container" backgroud="/Content/HTML/resources/img/background1.jpg">
+        <div backgroud="/Content/HTML/resources/img/background1.jpg" width="100%">
+
+            <div class="row">
+                @foreach (var item in Model)
+                {
+
+
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="course">
+                            <div class="img">
+                                <a href="/Home/DetailKhoaHoc?id= @item.KhoaHocID" title="CTenKhoaHoc">
+                                    <img src="@item.HinhAnh" alt="@item.TenKhoaHoc" />
+                                </a>
+                            </div>
+                            <div class="desc">
+                                <div>
+                                    <h3><a href="/Home/DetailKhoaHoc?id= @item.KhoaHocID" title="@item.TenKhoaHoc">@item.TenKhoaHoc</a></h3>
+                                </div>
+                                <p class="text-center">@item.MoTa</p>
+                                <a href="Detail" title="@item.TenKhoaHoc" class="btn-detail detail-course-3">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+</div>
+<Lý do chọn MINIONS>
+    <div id="why">
+
+            <div class="container">
+
+                <div class="title text-center text-uppercase cfm">
+                    <h2>3 LÝ DO CHỌN MINIONS</h2>
+                    <p></p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="why">
+                            <a title="10 năm kinh nghiệm giảng dạy Tiếng Anh mầm non, Tiểu học  tại Việt Nam">
+                                <img src="/Content/HTML/resources/img/20170105135443_untitled-4.jpg" alt="10 năm kinh nghiệm giảng dạy Tiếng Anh mầm non, Tiểu học  tại Việt Nam" />
+                                <h3><span>10 năm kinh nghiệm giảng dạy Tiếng Anh mầm non, Tiểu học  tại Việt Nam</span></h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="why">
+                            <a title="Chương trình Tiếng anh chuyên biệt đầu tiên cho trẻ 3-15 tuổi ">
+                                <img src="/Content/HTML/resources/img/20170105135309_untitled-3.jpg" alt="Chương trình Tiếng anh chuyên biệt đầu tiên cho trẻ 3-15 tuổi " />
+                                <h3><span>Chương trình Tiếng anh chuyên biệt đầu tiên cho trẻ 3-15 tuổi </span></h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="why">
+                            <a title="M&#244;i trường học tiếng anh hàng ngày đa phương tiện &quot;Hear, Say, See, Do&quot;">
+                                <img src="/Content/HTML/resources/img/20170105140137_untitled-5.jpg" alt="M&#244;i trường học tiếng anh hàng ngày đa phương tiện &quot;Hear, Say, See, Do&quot;" />
+                                <h3><span>M&#244;i trường học tiếng anh hàng ngày đa phương tiện &quot;Hear, Say, See, Do&quot;</span></h3>
+                            </a>
+                        </div>
+                    </div>
+                   @* <div class="col-sm-4 col-xs-12">
+                        <div class="why">
+                            <a title="100%  giảng dạy theo tiêu chuẩn quốc tế, tổ chức thi và lấy chứng chỉ Cambridge">
+                                <img src="/Content/HTML/resources/img/20170105141031_untitled-8.jpg" alt="100%  giảng dạy theo tiêu chuẩn quốc tế, tổ chức thi và lấy chứng chỉ Cambridge" />
+                                <h3><span>100%  giảng dạy theo tiêu chuẩn quốc tế, tổ chức thi và lấy chứng chỉ Cambridge</span></h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="why">
+                            <a title="Hệ thống gi&#225;o trình, phương ph&#225;p giảng dạy, cơ sở vật chất tiêu chuẩn dành riêng cho trẻ em ">
+                                <img src="/Content/HTML/resources/img/20170105142649_5.jpg" alt="Hệ thống gi&#225;o trình, phương ph&#225;p giảng dạy, cơ sở vật chất tiêu chuẩn dành riêng cho trẻ em " />
+                                <h3><span>Hệ thống gi&#225;o trình, phương ph&#225;p giảng dạy, cơ sở vật chất tiêu chuẩn dành riêng cho trẻ em </span></h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="why">
+                            <a title="100% gi&#225;o viên nước ngoài, Việt Nam đạt tiêu chuẩn sư phạm,  trẻ trung, nhiệt tình, năng động, yêu trẻ và hiểu trẻ">
+                                <img src="/Content/HTML/resources/img/20170105143509_6.jpg" alt="100% gi&#225;o viên nước ngoài, Việt Nam đạt tiêu chuẩn sư phạm,  trẻ trung, nhiệt tình, năng động, yêu trẻ và hiểu trẻ" />
+                                <h3><span>100% gi&#225;o viên nước ngoài, Việt Nam đạt tiêu chuẩn sư phạm,  trẻ trung, nhiệt tình, năng động,...</span></h3>
+                            </a>
+                        </div>
+                    </div>
+                       *@
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Trung Tâm Tiếng Anh</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="~/Content/style.css" />
+    <script type="text/javascript" src="/Scripts/js/boxOver.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/Commont/TrangChu">Trang Chủ</a>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <ul class="nav navbar-nav">
+
+                        <li class="active"><a href="/Commont/GioiThieu">Giới Thiệu</a></li>
+                        <li ><a href="#">Khóa Học</a></li>
+                        <li><a href="#">Học Sinh</a></li>
+                        <li><a href="#">Lịch Khai Giảng</a></li>
+                        <li><a href="#">Liên Hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <form class="navbar-form navbar-left" style="width: 300px">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/Common/DangKiHoc"><span class="glyphicon glyphicon-user"></span> Đăng Kí Khóa Học</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="main_container">
+        <div class="banner">
+            
+            <img src="~/Content/images/ttta.jpg" border="0" width="1450" height="340" />
+        </div>
+        <div id="main_content">
+
+           
+            <!-- end of left content -->
+            <div class="center_content">
+                @RenderBody()
+            </div>
+            <!-- end of center content -->
+          
+            <!-- end of right content -->
+
+        </div>
+        <!-- end of main content -->
+
+
+        <div class="footer">
+            
+        </div>
+
+
+
+    </div>
+
+</body>
+</html>
